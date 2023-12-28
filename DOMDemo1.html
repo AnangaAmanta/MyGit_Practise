@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      function createDOMButton() {
+        var btnRef = document.getElementById("h2");
+        console.log("called");
+        btnRef.innerText = "Javascript Button";
+        btnRef.style.backgroundColor = "red";
+      }
+    </script>
+  </head>
+  <body>
+    <h2 id="h2">DOM Element</h2>
+    <button id="button" onclick="createDOMButton()">HTML Button</button>
+  </body>
+</html>
